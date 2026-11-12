@@ -1,0 +1,10 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+rank-bm25>=0.2.2
+sentence-transformers>=2.7     # semantic (dense) retrieval
+anthropic>=0.40                # LLM answer generation + optional judge
+google-genai>=1.0              # Google Gemini answer generation + optional judge
+kaggle>=1.6                    # dataset download
+six>=1.16.0                    # required by Kaggle CLI on some installations
+streamlit>=1.32                # local browser interface
